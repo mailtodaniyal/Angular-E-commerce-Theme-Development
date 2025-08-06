@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuxCart - Premium Angular E-commerce</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Animations -->
+  <div class="bubbles">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+  </div>
+
+  <div class="dots" id="dots-container"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <a href="#" class="logo">
+        <i class="fas fa-gem"></i>
+        LuxCart
+      </a>
+      
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-icons">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-user"></i></a>
+        <a href="#">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-count">3</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Premium Products for Your Luxurious Lifestyle</h1>
+        <p>Discover our curated collection of high-quality products designed to elevate your everyday experience. Enjoy exclusive offers and fast shipping.</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-primary">Shop Now</a>
+          <a href="#" class="btn btn-secondary">Explore</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="hero.jpg" alt="Fashion Model">
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Categories -->
+  <section class="section">
+    <div class="section-title">
+      <h2>Shop by Category</h2>
+    </div>
+    
+    <div class="categories">
+      <div class="category-card">
+        <div class="category-image">
+          <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Fashion">
+        </div>
+        <div class="category-content">
+          <h3>Fashion</h3>
+          <p>Trendy outfits for every occasion</p>
+          <a href="#" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      
+      <div class="category-card">
+        <div class="category-image">
+          <img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Electronics">
+        </div>
+        <div class="category-content">
+          <h3>Electronics</h3>
+          <p>Latest gadgets and devices</p>
+          <a href="#" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      
+      <div class="category-card">
+        <div class="category-image">
+          <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Home Decor">
+        </div>
+        <div class="category-content">
+          <h3>Home Decor</h3>
+          <p>Beautiful pieces for your home</p>
+          <a href="#" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      
+      <div class="category-card">
+        <div class="category-image">
+          <img src="https://images.unsplash.com/photo-1560343090-f0409e92791a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Beauty">
+        </div>
+        <div class="category-content">
+          <h3>Beauty</h3>
+          <p>Premium skincare and makeup</p>
+          <a href="#" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Banner Slider -->
+  <div class="banner-slider">
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80')">
+          <div class="slide-content">
+            <h3>Summer Collection 2023</h3>
+            <p>Discover our new arrivals with up to 40% discount on selected items. Limited time offer!</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+          </div>
+        </div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+          <div class="slide-content">
+            <h3>Premium Electronics</h3>
+            <p>Get the latest gadgets with our exclusive bundle deals and extended warranties.</p>
+            <a href="#" class="btn btn-primary">Explore</a>
+          </div>
+        </div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+          <div class="slide-content">
+            <h3>Home Essentials</h3>
+            <p>Redecorate your space with our carefully selected home decor items.</p>
+            <a href="#" class="btn btn-primary">View Collection</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="slider-arrow left"><i class="fas fa-chevron-left"></i></div>
+      <div class="slider-arrow right"><i class="fas fa-chevron-right"></i></div>
+      
+      <div class="slider-nav">
+        <div class="slider-dot active"></div>
+        <div class="slider-dot"></div>
+        <div class="slider-dot"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Products -->
+  <section class="section">
+    <div class="section-title">
+      <h2>Featured Products</h2>
+    </div>
+    
+    <div class="products">
+      <div class="product-card">
+        <span class="product-badge">Sale</span>
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Product">
+          <div class="product-actions">
+            <div class="product-action"><i class="fas fa-heart"></i></div>
+            <div class="product-action"><i class="fas fa-eye"></i></div>
+            <div class="product-action"><i class="fas fa-share-alt"></i></div>
+          </div>
+        </div>
+        <div class="product-content">
+          <span class="product-category">Fashion</span>
+          <h3 class="product-title">Premium Denim Jacket</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="product-price">
+            <div>
+              <span class="price">$89.99</span>
+              <span class="old-price">$129.99</span>
+            </div>
+            <div class="add-to-cart"><i class="fas fa-shopping-bag"></i></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-image">
+          <img src="Wireless Headphones.webp" alt="Product">
+          <div class="product-actions">
+            <div class="product-action"><i class="fas fa-heart"></i></div>
+            <div class="product-action"><i class="fas fa-eye"></i></div>
+            <div class="product-action"><i class="fas fa-share-alt"></i></div>
+          </div>
+        </div>
+        <div class="product-content">
+          <span class="product-category">Electronics</span>
+          <h3 class="product-title">Wireless Headphones</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="product-price">
+            <div>
+              <span class="price">$149.99</span>
+            </div>
+            <div class="add-to-cart"><i class="fas fa-shopping-bag"></i></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <span class="product-badge">New</span>
+        <div class="product-image">
+          <img src="Modern Table Lamp.webp" alt="Product">
+          <div class="product-actions">
+            <div class="product-action"><i class="fas fa-heart"></i></div>
+            <div class="product-action"><i class="fas fa-eye"></i></div>
+            <div class="product-action"><i class="fas fa-share-alt"></i></div>
+          </div>
+        </div>
+        <div class="product-content">
+          <span class="product-category">Home Decor</span>
+          <h3 class="product-title">Modern Table Lamp</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="product-price">
+            <div>
+              <span class="price">$59.99</span>
+            </div>
+            <div class="add-to-cart"><i class="fas fa-shopping-bag"></i></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-image">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Product">
+          <div class="product-actions">
+            <div class="product-action"><i class="fas fa-heart"></i></div>
+            <div class="product-action"><i class="fas fa-eye"></i></div>
+            <div class="product-action"><i class="fas fa-share-alt"></i></div>
+          </div>
+        </div>
+        <div class="product-content">
+          <span class="product-category">Beauty</span>
+          <h3 class="product-title">Luxury Skincare Set</h3>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="product-price">
+            <div>
+              <span class="price">$79.99</span>
+              <span class="old-price">$99.99</span>
+            </div>
+            <div class="add-to-cart"><i class="fas fa-shopping-bag"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sales Section -->
+  <section class="sales">
+    <div class="sales-container">
+      <div class="sales-text">
+        <h2>Flash Sale!</h2>
+        <p>Huge discounts on premium products. Limited time offer. Don't miss out!</p>
+        
+        <div class="sales-timer">
+          <div class="timer-box">
+            <div class="timer-value" id="days">00</div>
+            <div class="timer-label">Days</div>
+          </div>
+          <div class="timer-box">
+            <div class="timer-value" id="hours">00</div>
+            <div class="timer-label">Hours</div>
+          </div>
+          <div class="timer-box">
+            <div class="timer-value" id="minutes">00</div>
+            <div class="timer-label">Minutes</div>
+          </div>
+          <div class="timer-box">
+            <div class="timer-value" id="seconds">00</div>
+            <div class="timer-label">Seconds</div>
+          </div>
+        </div>
+        
+        <a href="#" class="btn btn-primary">Shop Sale Items</a>
+      </div>
+      <div class="sales-image">
+        <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Sale Products">
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="newsletter-container">
+      <h3>Subscribe to Our Newsletter</h3>
+      <p>Get the latest updates on new products and upcoming sales</p>
+      
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your email address" class="newsletter-input" required>
+        <button type="submit" class="newsletter-button">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <a href="#" class="footer-logo">
+          <i class="fas fa-gem"></i>
+          LuxCart
+        </a>
+        <p>Premium e-commerce platform offering high-quality products for your luxurious lifestyle. We curate the best items from around the world.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Luxury Street, New York, NY 10001</p>
+        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+        <p><i class="fas fa-envelope"></i> info@luxcart.com</p>
+        <p><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 LuxCart. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
